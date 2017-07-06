@@ -1,0 +1,14 @@
+\documentclass[../Relazione.tex]{subfiles}
+
+\begin{document}
+\section{Introduzione}
+    \subsection{Sito in esame}
+        \site\ è il sito "Vetrina" di una azienda di Cittadella(PD) che si occupa di creare soluzioni di arredamento completamente su misura. \\
+        \name\ essendo un'azienda d'artigianato che crea arredamenti con un uso massiccio di manodopera umana punta molto sulla possibilità di trasformare e personalizzare lo spazio con la massima libertà.
+        Poi un altro punto cui spinge molto il sito è la qualità dei componenti e materiali che \name\ usa.
+        Essendo un azienda che non vende a privati ma solo ad intermediari che poi venderanno ai clienti finali, ad esempio studio di architetti, il sito punta molto sulla possibilità di personalizzare i suoi prodotti e di creare qualcosa di unico, a differenza di industrie che hanno come caratteristica un margine di cambiamento molto più basso a causa dell automatizzazione della lavorazione.
+        \site\ quindi rende disponibile contatti, esempi di prodotti con immagini reali e un breve  storia dell'azienda.
+    \subsection{Motivazione scelta}
+        La scelta è stato motivata sopratutto dall'interesse che nutro per l'arredamento e sopratutto per la conoscenza del titolare di \name\ e quindi spero che questa analisi non sia solo fine al esame ma anche fonte di consiglio per per lui.
+        
+\end{document}

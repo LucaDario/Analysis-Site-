@@ -1,0 +1,58 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{Style/style}
+\usepackage{float}
+\titlepage{}
+
+\author{Zanon Edoardo}
+\date{aaaa/mm/gg}
+\intestazioni{Analisi usabilità \name}
+
+
+\pagestyle{empty}
+\pagenumbering{gobble}
+
+\begin{document}
+
+	\begin{titlepage}
+		\centering
+		\vspace{5cm}
+		{\huge\bfseries FabrikaItaliaDesign\par}
+		
+
+		Analisi di usabilità \\*
+		\line(1,0){350} \\
+		
+		\vspace{6cm}
+		{\scshape\LARGE Università di Padova \par}
+		\vspace{2cm}
+		\begin{tabular}{c|c}
+			{\hfill\textbf{Data Redazione}} 	& 2017-06-29 \\
+			{\hfill\textbf{Nome Cognome}} 			& Dario Luca \\
+			{\hfill\textbf{Matricola}} 			&  1097935 \\
+			{\hfill\textbf{Link}} 			&  \site
+		\end{tabular}
+	\end{titlepage}
+	
+
+	\pagestyle{myfront}
+
+	\newpage		
+		\tableofcontents
+	\newpage
+		\listoffigures		% produce l'indice delle figure del documento		
+
+	\label{LastFrontPage}
+		\newpage
+			\pagestyle{mymain}	
+			\subfile{Sezioni/Introduzione}
+		\newpage	
+			\subfile{Sezioni/Analisi}
+		\newpage	
+			\subfile{Sezioni/Considerazioni}
+		\newpage	
+			\subfile{Sezioni/Conclusione}
+
+	\label{LastPage}
+
+\end{document}
